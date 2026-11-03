@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { User, Lock, Bell as BellIcon } from 'lucide-react';
 
 export default function Settings() {
-  const [formData, setFormData] = useState({
+  const [formData] = useState({
     firstName: 'John',
     lastName: 'Doe',
     studentId: 'STU2023001',

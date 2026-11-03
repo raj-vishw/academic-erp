@@ -12,8 +12,9 @@ export default function Login() {
     <div className="auth-container">
       <div className="auth-left">
         <form className="auth-form" onSubmit={handleLogin}>
-          <h1>LOGIN</h1>
-          <p>Please enter your details to sign in</p>
+          <div className="login-brand"><span className="brand-mark">✦</span> CampusHub</div>
+          <h1>Welcome back</h1>
+          <p>Sign in to see your classes, attendance, and exam updates.</p>
 
           <div className="form-group">
             <label>Username</label>
@@ -30,7 +31,7 @@ export default function Login() {
             <input type="text" className="form-input" placeholder="main.university.edu" defaultValue="main.university.edu" />
           </div>
 
-          <button type="submit" className="auth-btn">SUBMIT</button>
+          <button type="submit" className="auth-btn">Sign in to portal</button>
         </form>
       </div>
       <div className="auth-right">

@@ -37,7 +37,7 @@ export default function Dashboard() {
       <div className="dashboard-grid">
         <div className="dashboard-left">
           <div className="section">
-            <h3 className="section-title">RECENTLY VISITED</h3>
+            <h3 className="section-title">Pick up where you left off</h3>
             <div className="recent-cards">
               {recentlyVisited.map(course => (
                 <div key={course.code} className="recent-card" style={{ cursor: 'pointer' }} onClick={() => navigate('/courses')}>
@@ -50,7 +50,7 @@ export default function Dashboard() {
           </div>
 
           <div className="section">
-            <h3 className="section-title">DETAILS</h3>
+            <h3 className="section-title">Your semester at a glance</h3>
             <div className="details-card">
               <div className="details-header">
                 <strong>Current Semester</strong>
@@ -80,7 +80,7 @@ export default function Dashboard() {
 
         <div className="dashboard-right">
           <div className="section">
-            <h3 className="section-title">NOTIFICATIONS</h3>
+            <h3 className="section-title">Latest updates</h3>
             <div className="notifications-list">
               {notifications.map((notif, idx) => (
                 <div key={idx} className="notification-item">

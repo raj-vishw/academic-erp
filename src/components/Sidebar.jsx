@@ -20,8 +20,11 @@ export default function Sidebar() {
   return (
     <aside className="sidebar">
       <div className="sidebar-logo">
-        <GraduationCap size={28} />
-        <span>LOGO</span>
+        <div className="brand-mark"><GraduationCap size={22} /></div>
+        <div>
+          <strong>CampusHub</strong>
+          <span>Student portal</span>
+        </div>
       </div>
 
       <nav className="nav-links">
@@ -41,7 +44,7 @@ export default function Sidebar() {
       </nav>
 
       <div className="sidebar-footer">
-        <a href="#learn-more">Learn more</a>
+        <a href="#learn-more">Need help? Learn more</a>
         <button className="logout-btn" onClick={handleLogout}>
           <LogOut size={20} />
           <span>Logout</span>
