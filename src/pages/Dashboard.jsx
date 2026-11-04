@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 export default function Dashboard() {
   const navigate = useNavigate();
 
+  // Dashboard content is intentionally concise so students can scan it quickly.
   const recentlyVisited = [
     { code: 'CS201', name: 'Data Structures' },
     { code: 'CS301', name: 'Database Systems' },

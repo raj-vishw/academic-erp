@@ -1,6 +1,7 @@
 import { BookOpen, Calendar, Users, MapPin, Clock } from 'lucide-react';
 
 export default function Courses() {
+  // Course records will later be replaced by data loaded from an API.
   const courses = [
     { code: 'CS201', name: 'Data Structures', prof: 'Dr. Sarah Johnson', time: 'Mon, Wed, Fri - 10:00 AM', room: 'Room 305', credits: 3, students: 45 },
     { code: 'CS301', name: 'Database Systems', prof: 'Prof. Michael Chen', time: 'Tue, Thu - 2:00 PM', room: 'Room 201', credits: 3, students: 38 },

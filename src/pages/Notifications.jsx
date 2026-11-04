@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Bell, ShieldAlert, FileText, Calendar, CloudLightning } from 'lucide-react';
 
 export default function Notifications() {
+  // Local state keeps the notification interactions usable without an API.
   const [activeTab, setActiveTab] = useState('All');
   const [readNotifs, setReadNotifs] = useState([]);
 

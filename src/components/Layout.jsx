@@ -4,6 +4,7 @@ import Topbar from './Topbar';
 
 export default function Layout() {
   const location = useLocation();
+  // The login screen intentionally uses a separate, distraction-free layout.
   const isLoginPage = location.pathname === '/login';
 
   if (isLoginPage) {

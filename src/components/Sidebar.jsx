@@ -3,7 +3,8 @@ import { LayoutDashboard, BookOpen, CalendarCheck, FileText, Coffee, Settings, G
 
 export default function Sidebar() {
   const navigate = useNavigate();
-  
+
+  // Keeping navigation as data makes adding a new portal section straightforward.
   const navItems = [
     { path: '/dashboard', icon: LayoutDashboard, label: 'Dashboard' },
     { path: '/courses', icon: BookOpen, label: 'Courses' },

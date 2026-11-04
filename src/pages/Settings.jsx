@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { User, Lock, Bell as BellIcon } from 'lucide-react';
 
 export default function Settings() {
+  // Form values are placeholders until profile persistence is implemented.
   const [formData] = useState({
     firstName: 'John',
     lastName: 'Doe',

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Topbar() {
   return (
+    /* The topbar stays consistent while the Outlet changes between page routes. */
     <header className="topbar">
       <div className="topbar-welcome">
         <span>Tuesday, November 3, 2026</span>

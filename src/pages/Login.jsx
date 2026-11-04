@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 export default function Login() {
   const navigate = useNavigate();
 
+  // Authentication is mocked for this frontend prototype.
   const handleLogin = (e) => {
     e.preventDefault();
     navigate('/dashboard');

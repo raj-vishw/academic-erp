@@ -1,6 +1,7 @@
 import { FileText, Download, Eye, Calendar, Clock } from 'lucide-react';
 
 export default function ExamPaper() {
+  // Exam and paper records are mock data until a backend is connected.
   const upcomingExams = [
     { name: 'Data Structures', code: 'CS201', date: '2026-05-12', time: '10:00 AM - 1:00 PM', type: 'Midterm', location: 'Hall A' },
     { name: 'Database Systems', code: 'CS301', date: '2026-05-15', time: '2:00 PM - 5:00 PM', type: 'Final', location: 'Hall B' },

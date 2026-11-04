@@ -1,4 +1,5 @@
 :root {
+  /* Shared design tokens keep colors and spacing consistent across screens. */
   --bg-color: #f5f7fb;
   --sidebar-bg: #172554;
   --sidebar-hover: #23356f;

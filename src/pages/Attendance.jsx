@@ -1,6 +1,7 @@
 import { Calendar, Target } from 'lucide-react';
 
 export default function Attendance() {
+  // Attendance is currently represented with local prototype data.
   const subjects = [
     { name: 'Data Structures', code: 'CS201', attended: 32, total: 35, percentage: 91 },
     { name: 'Database Systems', code: 'CS301', attended: 28, total: 30, percentage: 93 },

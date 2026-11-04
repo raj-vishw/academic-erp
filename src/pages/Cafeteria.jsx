@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Coffee, Utensils, QrCode } from 'lucide-react';
 
 export default function Cafeteria() {
+  // These state values demonstrate filtering and token booking interactions.
   const [activeTab, setActiveTab] = useState('All');
   const [bookedTokens, setBookedTokens] = useState({});
 

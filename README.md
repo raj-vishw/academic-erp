@@ -1,5 +1,6 @@
 # CampusHub Academic ERP
 
+<!-- This README documents the frontend prototype for contributors and reviewers. -->
 CampusHub is a responsive student portal built with React and Vite. It gives students one place to view their academic overview, courses, attendance, exams, cafeteria meal tokens, notifications, and account settings.
 
 ## Features

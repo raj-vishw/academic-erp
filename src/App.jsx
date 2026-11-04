@@ -10,6 +10,7 @@ import Settings from './pages/Settings';
 import Notifications from './pages/Notifications';
 
 function App() {
+  // Routes define the page-level navigation while Layout provides shared chrome.
   return (
     <BrowserRouter>
       <Routes>
